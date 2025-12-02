@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "multimodal-agi-repo"
+version = "0.9.1-beta"
+description = "Production-Ready AGI Suite: Scalable Multimodal Synthesis & Deployment."
+authors = ["Advanced AI Professional <agi@professional.org>"]
+license = "Proprietary"
+readme = "../../README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+# Core Framework Dependency:
+tensorflow = ">=2.15.0"
+# Additional Libraries (Minimalist based on Keras imports):
+numpy = "^1.26.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
