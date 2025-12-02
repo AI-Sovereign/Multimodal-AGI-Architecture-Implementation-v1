@@ -1,0 +1,12 @@
+# --- Universal Configuration File for TCS-AGI Framework ---
+environment: production
+logging_level: INFO
+
+hardware:
+  gpu_memory_limit_gb: 16
+  num_cores: 8
+
+api_keys:
+  # Placeholder for external service integration
+  external_data_source: ENV_API_KEY_DEFAULT
+  temporal_engine_id: TCS-AGI-001
