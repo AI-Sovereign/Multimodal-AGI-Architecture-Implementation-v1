@@ -1,0 +1,4 @@
+# Data Manifest Version Log
+# Date: 2025-11-28
+v1.0.0: Initial release with TCS_26 Temporal Set.
+v1.2.1: Updated TCS_25 Vision Set with improved alignment and high-resolution corpus.
