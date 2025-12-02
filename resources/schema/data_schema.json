@@ -1,0 +1,11 @@
+{
+  "TCS_Input_Schema": {
+    "temporal_sequence": "array<float>",
+    "causal_variables": "array<string>",
+    "timestamps": "array<int>"
+  },
+  "TCS_Output_Schema": {
+    "synthesized_state": "array<float>",
+    "confidence_score": "float"
+  }
+}
