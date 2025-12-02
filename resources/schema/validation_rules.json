@@ -1,0 +1,11 @@
+{
+  "temporal_sequence": {
+    "min_length": 50,
+    "data_type": "float32",
+    "range": [-100.0, 100.0]
+  },
+  "confidence_score": {
+    "range": [0.0, 1.0],
+    "type": "float"
+  }
+}
