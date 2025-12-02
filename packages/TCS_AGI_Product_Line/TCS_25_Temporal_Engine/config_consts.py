@@ -1,0 +1,19 @@
+# Global Constants for TCS-25 Architecture (Hyper-Advanced)
+IMAGE_SHAPE = (128, 128, 3) 
+DATA_INPUT_SIZE = 512
+TS_STEPS = 10 
+TS_DIM = 8 
+SEQ_LEN = 50
+SEQ_DIM = 64
+GRAPH_DIM = 32
+VOCAB_SIZE = 10000 
+NUM_CLASSES = 10
+FRONTAL_LOBE_UNITS = 2048 # Doubled capacity
+HYPER_LATENT_DIM = 4096 # Doubled Hyper-Dimensional Latent Space
+NUM_PFC_CONTEXTS = 64 # Doubled for deeper executive control
+RELATIONAL_EMB_DIM = 512 # Doubled for richer relational reasoning
+CAUSAL_STATE_DIM = 256 # Doubled for richer Causal Inference Module
+AXIOMATIC_DIM = 128 # NEW: Dimension for Axiomatic Knowledge Embeddings
+MLC_OUTPUT_DIM = 5 # Output dimension for Meta-Learning Control
+LOSS_WEIGHT_SSTC = 0.95 # Stronger emphasis on Self-Supervised Temporal Contrastive
+TRAINING_BATCH_SIZE = 32 # Smaller batch for stability with larger model
