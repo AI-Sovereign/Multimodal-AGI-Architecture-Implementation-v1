@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "name": "TCS_25_Vision_Set",
+      "version": "v1.2.1",
+      "source_path": "gcp://agi-research-bucket/tcs25/vision/",
+      "description": "High-res image corpus (128x128x3) aligned with sequence data (50 timesteps)."
+    },
+    {
+      "name": "TCS_26_Symplectic_Set",
+      "version": "v1.0.0",
+      "source_path": "s3://agi-research-data/tcs26/timeseries/graph/",
+      "description": "Aligned time-series (10 steps, 8 dim) and graph-structured data for stateless execution."
+    }
+  ],
+  "architecture_constants": {
+    "IMAGE_SHAPE": "128x128x3",
+    "HYPER_LATENT_DIM": 4096,
+    "FRONTAL_LOBE_UNITS": 2048,
+    "AXIOMATIC_DIM": 128,
+    "SYMPLECTIC_DIM": 256
+  }
+}
