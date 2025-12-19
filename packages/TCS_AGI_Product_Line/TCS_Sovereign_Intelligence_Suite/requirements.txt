@@ -1,0 +1,29 @@
+# --- OMEGA_SOVEREIGN_TCS25 Core Dependencies ---
+
+# Distributed Infrastructure & Data Handling
+ray[default]>=2.40.0
+dask[complete]>=2024.12.0
+zarr>=2.16.0
+pydantic>=2.10.0
+loguru>=0.7.2
+
+# Causal Manifold & Topology
+cdt>=0.6.0
+networkx>=3.2.0
+scipy>=1.13.0
+scikit-learn>=1.5.0
+
+# Sovereign Core (Neural & Plasticity)
+torch>=2.5.0
+torch-geometric>=2.6.0
+numpy>=1.26.0
+
+# Synaptic Integrity & Monitoring
+evidently>=0.4.0
+prometheus-client>=0.20.0
+
+# Executive Deployment
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+redis>=5.0.0
+python-multipart>=0.0.12
