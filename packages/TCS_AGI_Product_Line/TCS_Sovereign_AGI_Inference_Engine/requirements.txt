@@ -1,0 +1,21 @@
+# --- PROJECT AEGIS: OMEGA SOVEREIGN DEPENDENCIES ---
+# Core Computation & Tensors
+torch>=2.8.0
+numpy>=2.2.6
+pandas>=2.3.3
+scipy>=1.16.3
+sympy>=1.14.0
+
+# Infrastructure & Validation
+pydantic>=2.12.3
+rich>=14.2.0
+
+# Graph Theory & Causal Discovery
+networkx>=3.4.2
+
+# Machine Learning & Hindsight Logic
+scikit-learn>=1.7.2
+
+# Deployment & API Interface
+fastapi>=0.127.0
+uvicorn>=0.34.0
