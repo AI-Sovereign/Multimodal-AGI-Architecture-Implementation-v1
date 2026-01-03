@@ -1,0 +1,43 @@
+# --- Core Orchestration & Logging ---
+structlog
+pydantic-settings
+dagster
+dagster-webserver
+omegaconf
+icecream
+loguru
+
+# --- Data Acquisition & Heavy Lifting ---
+polars
+vaex
+dask[complete]
+scapy
+paho-mqtt
+bleak
+numpy
+modin[all]
+pandas
+
+# --- The Brain (SNN, Transformers, GNN) ---
+torch>=2.0.0
+snntorch
+tensorflow
+transformers
+torch-geometric
+jax
+optax
+equinox
+
+# --- Evaluation & Adversarial Defense ---
+cleanlab
+deepchecks
+evidently
+adversarial-robustness-toolbox
+
+# --- Sovereign Interface & API ---
+falcon
+uvicorn
+granian
+orjson
+flatbuffers
+mimesis
